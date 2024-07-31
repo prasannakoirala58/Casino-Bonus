@@ -31,7 +31,7 @@ Replace `username`, `password`, `host`, `port`, and `database` with your actual 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/casino-bonus-system.git
+   git clone https://github.com/prasannakoirala58/Casino-Bonus.git
    cd casino-bonus-system
    ```
 
