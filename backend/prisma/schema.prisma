@@ -1,0 +1,17 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Player {
+  id          Int      @id @default(autoincrement())
+  deposit     Float
+  bonusType   String
+  bonus       Float
+  total       Float
+  createdAt   DateTime @default(now())
+}

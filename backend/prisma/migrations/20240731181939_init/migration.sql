@@ -1,0 +1,11 @@
+-- CreateTable
+CREATE TABLE "Player" (
+    "id" SERIAL NOT NULL,
+    "deposit" DOUBLE PRECISION NOT NULL,
+    "bonusType" TEXT NOT NULL,
+    "bonus" DOUBLE PRECISION NOT NULL,
+    "total" DOUBLE PRECISION NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Player_pkey" PRIMARY KEY ("id")
+);
