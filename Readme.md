@@ -74,7 +74,7 @@ Replace `username`, `password`, `host`, `port`, and `database` with your actual 
 ### Running the Project
 
 1. Ensure both the frontend and backend servers are running.
-2. Open your browser and navigate to `http://localhost:5175` to use the casino player bonus system.
+2. Open your browser and navigate to `http://localhost:5173` (Vite's default) to use the casino player bonus system.
 
 ## Usage
 
